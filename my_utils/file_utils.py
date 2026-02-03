@@ -27,7 +27,7 @@ def append_file(file_name,data):
     :param data: 指定的数据
     :return: None
     """
-   
+
     try:
         f= open(file_name,"a",encoding="utf-8")
         f.write(data)
@@ -35,6 +35,7 @@ def append_file(file_name,data):
         f.close()
     except Exception as e:
         print("文件操作异常：", e)
+
 
 
 if __name__ == '__main__':
