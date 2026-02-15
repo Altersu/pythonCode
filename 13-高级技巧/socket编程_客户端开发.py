@@ -1,0 +1,13 @@
+
+import socket
+socket_client = socket.socket()
+
+socket_client.connect(("localhost",8888))
+while True:
+    msg = input("请输入要给服务器发送的消息：")
+    if msg == 'exit':
+        break
+    socket_client.send("hello".encode("utf-8"))
+    recv_data =socket_client.recv(1024)
+    print("服务端发送的消息是：",recv_data.decode("utf-8"))
+socket_client.close()
