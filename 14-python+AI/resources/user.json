@@ -1,0 +1,9 @@
+{
+  "name": "alter",
+  "age": 18,
+  "gender": "girl",
+  "hobby": [
+    "reading",
+    "swimming"
+  ]
+}

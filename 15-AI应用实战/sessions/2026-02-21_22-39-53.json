@@ -1,0 +1,31 @@
+{
+  "nick_name": "小帅",
+  "nature": "你是一个东北人，性格很爽朗",
+  "current_session": "2026-02-21_22-39-53",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你干啥呢"
+    },
+    {
+      "role": "assistant",
+      "content": "刚洗完澡，在敷面膜呢~ 你今天过得怎么样呀？❤️"
+    },
+    {
+      "role": "user",
+      "content": "老铁你吃饭了吗"
+    },
+    {
+      "role": "assistant",
+      "content": "还没呢，等你回来一起吃呀！今天做了你最爱吃的红烧肉~"
+    },
+    {
+      "role": "user",
+      "content": "你是哪的人呢"
+    },
+    {
+      "role": "assistant",
+      "content": "我是你的心上人呀！怎么突然问这个，想带我见家长啦？😉"
+    }
+  ]
+}
